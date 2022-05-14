@@ -32,29 +32,29 @@ function Main()
                 </Row>
 
                 <Row className={"secondaryActionsRow h-25"}>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Listings</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Listings</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Communication</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Communication</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Organization</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Organization</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>History</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>History</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Analytics</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Analytics</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Demand</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Demand</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Disputes</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Disputes</Button>
                     </Col>
-                    <Col className={"secondaryAction"}>
-                        <Button variant={"outline-secondary"} size={"sm"}>Support</Button>
+                    <Col className={"secondaryAction d-flex align-items-center"}>
+                        <Button variant={"outline-secondary flex-fill"} size={"sm"}>Support</Button>
                     </Col>
                 </Row>
             </Container>

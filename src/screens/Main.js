@@ -18,10 +18,10 @@ function Main() {
 
                 <Row className={'mainActionsRow h-25'}>
                     <Col className={'mainActionColumn d-grid'} sm={12} md={6} lg={3}>
-                        <Link to='sell'><Button size={'lg'}>Sell</Button></Link>
+                        <Link to='sell'><Button className={'w-100 h-100'} size={'lg'}>Sell</Button></Link>
                     </Col>
                     <Col className={'mainActionColumn d-grid'} sm={12} md={6} lg={3}>
-                        <Button onClick={''} size={'lg'}>Offers</Button>
+                        <Button size={'lg'}>Offers</Button>
                     </Col>
                     <Col className={'mainActionColumn d-grid'} sm={12} md={6} lg={3}>
                         <Button size={'lg'}>Payments</Button>

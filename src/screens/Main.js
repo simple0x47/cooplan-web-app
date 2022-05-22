@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from "react-bootstrap/Button";
+import { Link } from 'react-router-dom';
 
-function Main()
-{
+function Main() {
     return (
         <div className="Main">
             <Container className={"vh-100"}>
@@ -18,10 +18,10 @@ function Main()
 
                 <Row className={"mainActionsRow h-25"}>
                     <Col className={"mainActionColumn d-grid"} sm={12} md={6} lg={3}>
-                        <Button size={"lg"}>Sell</Button>
+                        <Link to="sell"><Button size={"lg"}>Sell</Button></Link>
                     </Col>
                     <Col className={"mainActionColumn d-grid"} sm={12} md={6} lg={3}>
-                        <Button size={"lg"}>Offers</Button>
+                        <Button onClick={""} size={"lg"}>Offers</Button>
                     </Col>
                     <Col className={"mainActionColumn d-grid"} sm={12} md={6} lg={3}>
                         <Button size={"lg"}>Payments</Button>

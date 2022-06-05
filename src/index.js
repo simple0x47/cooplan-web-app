@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Main from './screens/Main';
-import Sell from './screens/Sell';
+import Main from './screens/producer/Main';
+import Sell from './screens/producer/Sell';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
